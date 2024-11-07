@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: rgb(202, 202, 202);
+    background-color: #1a1a1a;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(img/banner.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#header-img {
+    width: 40px;
+    transform: translateX(-75px);
+}
+#nav-bar {
+    width: 85%;
+    margin: auto;
+    padding: 1px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+#nav-bar ul li a {
+    text-decoration: none;
+    color: #cccccc;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+#nav-bar ul li a:hover {
+    color: #ffff;
+    text-shadow: 0 0 8 rgba(255, 255 ,255, 0.8);
+}
+#home {
+    display: grid;
+    grid-template-areas: "prof-image intro skills" "uc-deets uc-deets skills";
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 60px;
+}
+#prof-image {
+    grid-area: prof-image;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#prof-image img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+#intro {
+    grid-area: intro;
+}
+#intro-h2 {
+    font-size: 111px;
+    margin-bottom: 10px;
+}
+#intro-p {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+}
+#skills {
+    grid-area: skills;
+}
+#skills ul {
+    list-style: none;
+}
+#skills ul li{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#uc-deets {
+    grid-area: uc-deets;
+}
+
+/*time out*/
+/*time in, hehe kakauwi sabado*/
+
+#about-me {
+    margin: 75px;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 56);
+    padding: 15px;
+    box-shadow: 20px 20px rgb(66, 66, 66,0.5);
+}
+#about-me ul {
+    list-style: none;
+}
+#about-me ul li {
+    margin: 20px;
+}
+#additionals {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+}
+#resume {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+}
+#projects {
+    margin-top: 10px;
+    margin: 75px;
+    border-radius: 10px;
+    background-color: rgba(56, 56, 56);
+    padding: 15px;
+}
+#github {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.project {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+}
+#contact {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder ;
+}
+#contact {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+#contact h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+form {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label {
+    font-size: 1em;
+    color: #666;
+}
+input[type="email"], textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type="email"]:focus, textarea:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+#submit {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#submit {
+    background-color: #45a049;
+}
+footer {
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    text-align: right;
+}
