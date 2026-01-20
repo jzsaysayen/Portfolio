@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refresher: Portfolio Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">jawshy<span>.</span></div>
+        <nav class="nav">
+          <a href="#hero" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#education" class="nav-link">Education & Skills</a>
+          <a href="#works" class="nav-link">Works</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="theme-toggle-icon">☾</span>
+        </button>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero / Banner -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Hi / Hello / <i>Is it me your looking for?</i></p>
+          <h1 class="hero-title">
+            I'm <span class="accent">Joshua</span>
+          </h1>
+          <h2 class="hero-subtitle">Web Developer ?</h2>
+          <p class="hero-text">
+            Im a 3rd year student that is currently finishing my Bachelors in Information Technology at the University of the Cordilleras.
+          </p>
+          <div class="hero-actions">
+            <a href="#" class="btn primary">Download Resume</a>
+            <a href="#contact" class="btn ghost">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <div class="hero-image-circle"></div>
+          <div class="hero-image"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-info" class="divider">
+      <div class="container">
+        <div class="contact-info-grid">
+          <div class="contact-info-item">
+            <span class="contact-info-label">Email</span>
+            <a class="email" href="#!">
+              <h3 class="contact-info-email">
+                  saysayenj@gmail.com
+              </h3>
+            </a>
+          </div>
+          <div class="contact-info-item">
+            <span class="contact-info-label">Contact Number</span>
+            <a class="contact-number" href="#!">
+              <h3 class="contact-info-number">
+                  +63 193783455
+              </h3>
+            </a>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container section-inner two-column">
+        <div class="section-label">( 01 )</div>
+        <div>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-text">
+            I am a passio- enough with the bs. I studied IT because I was a lost cause. still am, but at least now I somehow kinda getting the hang of things. (I think)
+          </p>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number">00</div>
+              <div class="stat-label">Years of experience</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">3</div>
+              <div class="stat-label">Imaginary Clients</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Unfinished Projects</div>
+            </div>
+          </div>
+          <div class="languages">
+            <h3 class="languages-title">Language</h3>
+            <ul class="chip-list">
+              <li class="chip">English</li>
+              <li class="chip">Filipino</li>
+              <li class="chip">Carabao</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section section-alt">
+      <div class="container section-inner">
+        <div class="section-header">
+          <div class="section-label">( 02 )</div>
+          <h2 class="section-title">Experience</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-year">20XX</div>
+            <div class="timeline-card">
+              <h3 class="timeline-role">Front-end Developer</h3>
+              <div class="timeline-meta">
+                <span>www.work.com</span>
+                <span class="badge">Fulltime</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quod ex fuga sint, veritatis dignissimos, illum aliquam neque, aperiam perferendis nam assumenda maiores impedit. Dignissimos totam voluptatem asperiores repellendus dolores.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-year">20XX</div>
+            <div class="timeline-card">
+              <h3 class="timeline-role">UI Designer</h3>
+              <div class="timeline-meta">
+                <span>www.work.com</span>
+                <span class="badge badge-ghost">Remote</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Skills -->
+    <section id="education" class="section">
+      <div class="container section-inner two-column">
+        <div class="section-label">( 03 )</div>
+        <div class="education-skills">
+          <h2 class="section-title">Education & Skills</h2>
+          <div class="two-column">
+            <div class="edu-list">
+              <h3 class="subheading">Education</h3>
+              <div class="edu-item">
+                <span class="edu-year">2020</span>
+                <h4>2D Animation NC2</h4>
+                <p>Cordillera School of Digital Arts</p>
+              </div>
+              <div class="edu-item">
+                <span class="edu-year">2023 - Present(Ongoing)</span>
+                <h4>Bachelors of Science in Information Technology</h4>
+                <p>University of the Cordilleras</p>
+              </div>
+            </div>
+            <div class="skills">
+              <h3 class="subheading">Skills</h3>
+              <ul class="skill-chip-list">
+                <li class="skill-chip">
+                  <i class="fab fa-html5"></i>
+                  <span>HTML5</span>
+                </li>
+                <li class="skill-chip">
+                  <i class="fab fa-css3-alt"></i>
+                  <span>CSS3</span>
+                </li>
+                <li class="skill-chip">
+                  <i class="fab fa-js"></i>
+                  <span>JavaScript</span>
+                </li>
+                <li class="skill-chip">
+                  <i class="fab fa-react"></i>
+                  <span>React</span>
+                </li>
+                <li class="skill-chip">
+                  <i class="fab fa-node-js"></i>
+                  <span>Node.js</span>
+                </li>
+                <li class="skill-chip">
+                  <i class="fab fa-git-alt"></i>
+                  <span>Git</span>
+                </li>
+                <li class="skill-chip">
+                  <i class="fab fa-python"></i>
+                  <span>Python</span>
+                </li>
+                <li class="skill-chip">
+                  <i class="fab fa-bootstrap"></i>
+                  <span>Bootstrap</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Works -->
+    <section id="works" class="section section-alt">
+      <div class="container section-inner">
+        <div class="section-header">
+          <div class="section-label">( 04 )</div>
+          <h2 class="section-title">Latest Works</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="work-card">
+            <div class="work-thumb work-thumb-1">
+              <a
+                class="work-link"
+                href="https://github.com/example/mobile-banking"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="View Mobile Banking App on GitHub"
+              >
+                <i class="fas fa-eye"></i>
+                <span>View on GitHub</span>
+              </a>
+            </div>
+            <div class="work-body">
+              <h3>Filler Card</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+              </p>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-thumb work-thumb-2">
+              <a
+                class="work-link"
+                href="https://github.com/jzsaysayen/Draw-a-mon"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="View Draw-a-mon on GitHub"
+              >
+                <i class="fas fa-eye"></i>
+                <span>View on GitHub</span>
+              </a>
+            </div>
+            <div class="work-body">
+              <h3>Draw-a-mon mobile app</h3>
+              <p>
+                A mobile app that uses a draw-to-search feature to find specific Pokémon and their cards.
+              </p>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-thumb work-thumb-3">
+              <a
+                class="work-link"
+                href="https://github.com/example/ecommerce-site"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="View E-commerce Website on GitHub"
+              >
+                <i class="fas fa-eye"></i>
+                <span>View on GitHub</span>
+              </a>
+            </div>
+            <div class="work-body">
+              <h3>Filler Card</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container section-inner">
+        <div class="section-header">
+          <div class="section-label">( 05 )</div>
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="name">Name *</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone *</label>
+              <input id="phone" name="phone" type="tel" required />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="form-field">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn primary full-width">Send Now</button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-logo">jawshy<span>.</span></div>
+        <p class="footer-text">
+          Designed as a static HTML/CSS/JS version inspired by the
+          <a
+            href="https://themewagon.github.io/Resume-Nextjs/"
+            target="_blank"
+            rel="noreferrer"
+            >Resume Next.js</a
+          >
+          template.
+        </p>
+        <p class="footer-credit">
+          Designed by <span>Joshua Saysayen</span> • A Refresher Activity in
+          <span>CIT18</span>
+        </p>
+      </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
